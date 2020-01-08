@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste Raccoon</title>
+    <link href="styles.css" rel="stylesheet">
+      
+    <script>
+      function changeBorderColor(txtBox){
+          txtBox.style.border = "2px solid #00A4EF";
+      }
+      function removeBorder(txtBox){
+          txtBox.style.border = "0px solid #00A4EF";
+      }
+        
+      function myFunc() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+        
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.menu-icon')) {
+            var dropdowns = document.getElementsByClassName("dropdown-items");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+      }
+    </script>
+  </head>
+    
+  <body>
+      
+      <nav>
+        <div class="dropmenu">
+            <img src="img/menu-icon-t.png" alt="mobile-menu" class="menu-icon" onclick="myFunc()">
+            <div id="myDropdown" class="dropdown-items">
+                <a href="">Lorem ipsum</a>
+                <a href="">Lorem ipsum</a>
+                <a href="">Lorem ipsum</a>
+            </div>
+        </div>
+          
+        <div id="div-imgnav" class="desktop">
+            <a href="index.html"><img src='img/Grupo%20105.png' alt='logo' width="35%"></a>
+        </div>
+          
+        <ul>
+            <li><a href="" class="desktop">Lorem ipsum</a></li>
+            <li><a href="" class="desktop">Lorem ipsum</a></li>
+            <li><a href="" class="desktop">Lorem ipsum</a></li>
+            <li><button>Lorem ipsum</button></li>
+        </ul>
+      </nav>
+      
+      <header>
+            <h1 class="header">Lorem ipsum</h1>
+            <p class="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <button class="header">Lorem ipsum</button>
+            
+            <div id=div-general-header>
+                <div id="img-arrow">
+                    <a href="#section1"><img src='img/arrow.png' alt='seta' class="arrow"></a> 
+                </div>
+                <div id="div-imgheader">
+                    <img src='img/Grupo%20105.png' alt='logo menor' class="logo-menor"> 
+                </div>
+          </div>
+          
+      </header>
+    
+      <section id="section1">
+        <p class="cinza"><span id="orange">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse ultrices gravida.</p>
+        <h2 class="azul">Lorem Ipsum</h2>  
+        <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <div id="general-s1">  
+            <div id="div1-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div2-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div3-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div4-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div5-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div6-s1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div7-s1" class="desktop">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        <div id="div8-s1" class="desktop">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        <div id="div9-s1" class="desktop">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        <div id="div10-s1" class="desktop">
+                <table>
+                    <tr>
+                        <td>
+                            <img src='img/Grupo%20de%20m%C3%A1scara%201.png' alt='target' class="target-img">
+                        </td>
+                        <td>
+                            <h2 class="target">Lorem ipsum</h2>
+                            <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+      </section>
+    
+      <section id="section2">
+        <h2 class="azul">Lorem Ipsum</h2>
+        
+        <div id=div1-s2 class="class-s2">
+            <div class="c3">
+                <h3 class="green">Lorem ipsum dolor</h3>
+                <hr class="line">
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <button class="btn-s2" id="btn-green">Lorem ipsum</button> 
+            </div>
+            <div class="rounded" id="div-green">
+                <img src='img/support%20(1).png' alt='support' class="img-rounded"> 
+            </div>
+        </div>
+     
+        <div id=div2-s2 class="class-s2">
+            <div class="c3">
+                <h3 class="blue">Lorem ipsum dolor</h3>
+                <hr class="line">
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <button class="btn-s2" id="btn-blue">Lorem ipsum</button> 
+             </div>
+             <div class="rounded" id="div-blue">
+                <img src='img/shield.png' alt='shield' class="img-rounded" id="img-shield"> 
+             </div>
+        </div>
+          
+        <div id=div3-s2 class="class-s2">
+            <div class="c3">
+                <h3 class="yellow">Lorem ipsum dolor</h3>
+                <hr class="line">
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <button class="btn-s2" id="btn-yellow">Lorem ipsum</button> 
+            </div>
+            <div class="rounded" id="div-yellow">
+                <img src='img/notebook-and-mouse-cursor.png' alt='support' class="img-rounded"> 
+            </div>
+        </div>
+          
+      </section>
+      
+      <section id="section3">
+        <h2 class="azul" id="h2-s3">Lorem Ipsum dolor</h2>
+        <div id="general">
+            <div id="div1-s3" class="class-s3">
+                <h3 class="orange">Lorem ipsum dolor</h3>
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+
+            <div id="div2-s3" class="class-s3">
+                <h3 class="orange">Lorem ipsum dolor</h3>
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+
+            <div id="div3-s3" class="class-s3">
+                <h3 class="orange">Lorem ipsum dolor</h3>
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          
+            <div id="div4-s3">
+                <h3 class="orange">Lorem ipsum dolor</h3>
+                <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+        </div>
+        <div id="div5-s3">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</h1>
+        </div>
+      </section>
+      
+      <section id="section4">
+        <p class="cinza">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+        <div id="form">
+            <form>
+                <label class="lbl1"> Lorem ipsum</label>
+                <input type="text" id="txt1" class="txtBox" onfocus="changeBorderColor(this)" onfocusout="removeBorder(this)"/>
+                
+                <label class="lbl"> Lorem ipsum</label>
+                <input type="text" id="txt2" class="txtBox" onfocus="changeBorderColor(this)" onfocusout="removeBorder(this)"/>
+                
+                 <label class="lbl"> Lorem ipsum</label>
+                <input type="text" id="txt3" class="txtBox" onfocus="changeBorderColor(this)" onfocusout="removeBorder(this)"/>
+                
+                 <label class="lbl"> Lorem ipsum</label>
+                <input type="text" id="txt4" class="txtBox" onfocus="changeBorderColor(this)" onfocusout="removeBorder(this)"/>
+                
+                <label class="lbl"> Lorem ipsum</label>
+                <input type="text" id="txt5" class="txtBox" onfocus="changeBorderColor(this)" onfocusout="removeBorder(this)"/>
+                
+                <button class="form">Lorem ipsum</button>
+            </form>
+        </div>
+      </section>
+        
+      
+      <footer>
+        <div id="general-footer">
+            <div class="div-footer">
+                <img src="img/Grupo%20132.png" alt='logo pequeno' class="img-footer1">
+                <img src="img/Grupo%20124.png" alt='logo pequeno' class="img-footer2">  
+            </div>  
+            <div class="div-footer">
+                <img src="img/Grupo%20132.png" alt='logo pequeno' class="img-footer1">
+                <img src="img/Grupo%20124.png" alt='logo pequeno' class="img-footer2">  
+            </div>
+        </div>
+        
+        <p class="cinza">@Copyright Ingram Micro Brasil 2018</p>
+      </footer>
+          
+  </body>
+</html>
